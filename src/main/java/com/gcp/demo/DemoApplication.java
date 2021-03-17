@@ -54,7 +54,7 @@ public class DemoApplication {
     public static Double calculateSquareArea(Double side) {
         return (side*side);
     }
-    private static Double calculateTriangleArea(Double base,Double altura){
-        return (base*altura)/2;
+    private static Double calculateTriangleArea(Double base,Double height){
+        return (base*height)/2;
     }
 }
