@@ -10,4 +10,7 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
+    private static Double calcularTriangulo(Double base,Double altura){
+        return (base*altura)/2;
+    }
 }
